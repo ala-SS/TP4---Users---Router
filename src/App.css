@@ -1,0 +1,85 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+nav a {
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container button {
+  width: 50%;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.form-container input {
+  padding: 10px;
+  font-size: 20px;
+}
+
+table {
+  margin: auto;
+}
+
+tr,
+td {
+  border: 1px solid gray;
+}
+
+th {
+  border: 2px solid gray;
+  background-color: rgb(109, 153, 236);
+  color: rgb(229, 227, 227);
+}
+h2 {
+  text-align: center;
+}
+button {
+  margin-left: 10px;
+}
+
+.btnSupp {
+  background-color: red;
+  color: white;
+}
+.btnModif {
+  background-color: green;
+  color: white;
+}
+
+.msg {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 80%;
+  background-color: rgb(236, 67, 67);
+  color: white;
+  animation: app 10s forwards;
+  margin: 0 20px;
+  border-radius: 30px;
+}
+
+@keyframes app {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
